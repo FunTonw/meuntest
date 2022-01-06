@@ -1,16 +1,10 @@
-const express =  require("express");
+var express = require('express');
+
 const app = express();
-const port = 4000;
+const linebotParser = bot.parser();
+app.post('/', linebotParser);
 
-
-
-
-app.get("/",(req, res)=>{
-    console.log(req);
-    res.send("Hallo");
-    
-})
-
-app.listen(port, () =>{
-    console.log(`http:/localhost:${port}`)
-})
+var server = app.listen(process.env.PORT || 8080, function() {
+  var port = server.address().port;
+  console.log('目前的port是', port);
+});
