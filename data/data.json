@@ -168,7 +168,7 @@
         }
       ],
       "allConut": 55,
-      "checked": ""
+      "checked": "checked"
     },
     {
       "id": 2,
@@ -187,7 +187,51 @@
         }
       ],
       "allConut": 60,
+      "checked": "checked"
+    },
+    {
+      "id": 3,
+      "time": "2022/1/15 下午1:04:19",
+      "allItemAry": [
+        {
+          "id": 1642223007300,
+          "name": "鮮奶茶",
+          "addStu": [],
+          "price": 25,
+          "type": "drink"
+        },
+        {
+          "id": 1642223004573,
+          "type": "riceBall",
+          "name": "香腸",
+          "addStu": [
+            "玉米",
+            "鹹鴨蛋",
+            "不要肉鬆"
+          ],
+          "price": 60
+        }
+      ],
+      "allConut": 80,
       "checked": ""
+    },
+    {
+      "id": 4,
+      "time": "2022/1/15 下午1:04:24",
+      "allItemAry": [
+        {
+          "id": 1642223062509,
+          "type": "riceBall",
+          "name": "香腸",
+          "addStu": [
+            "起司",
+            "火腿"
+          ],
+          "price": 55
+        }
+      ],
+      "allConut": 55,
+      "checked": "checked"
     }
   ]
 }
